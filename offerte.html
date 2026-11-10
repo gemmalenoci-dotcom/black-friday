@@ -30,8 +30,8 @@
       <h1>Non facciamo mai sconti, <em>una volta l'anno</em> sì</h1>
       <p class="sub">Se pubblichi da mesi e i clienti arrivano ancora solo dal passaparola, non ti serve pubblicare di più: ti serve <b>una strategia scritta su di te</b> e qualcuno che ti corregge mentre la applichi<br>Per tre giorni puoi entrare nel Club a metà prezzo, o con la tua strategia scritta dal nostro team, o con Gemma accanto</p>
 
-      <div class="cd" data-apre="2026-11-27T09:00:00+01:00" data-chiude="2026-11-29T23:59:00+01:00"
-           data-label-prima="Si apre venerdì 27 novembre alle 9:00 · mancano"
+      <div class="cd" data-apre="2026-11-26T20:15:00+01:00" data-chiude="2026-11-29T23:59:00+01:00"
+           data-label-prima="Si apre giovedì 26 novembre durante la live · mancano"
            data-label-durante="Le offerte chiudono domenica 29 novembre alle 23:59 · mancano"
            data-label-dopo="Le offerte sui percorsi sono chiuse · il Club resta a 395€ fino a martedì 1 dicembre alle 23:59"
            data-fine="2026-12-01T23:59:00+01:00" data-label-fine="Il Black Friday si è chiuso · il prossimo ingresso nei percorsi è lunedì 1 febbraio">
@@ -77,7 +77,7 @@
     <p class="lead">Due strade con il prezzo in chiaro e tutto quello che c'è dentro, e una terza se vuoi Gemma accanto</p>
     <div class="offerte tre">
 
-      <article class="card" data-apre="2026-11-27T09:00:00+01:00" data-chiude="2026-12-01T23:59:00+01:00">
+      <article class="card" data-apre="2026-11-26T20:15:00+01:00" data-chiude="2026-12-01T23:59:00+01:00">
         <span class="tag">A · Solo il Club</span>
         <h3>Il Club per un anno, tutto sbloccato</h3>
         <div class="prezzo"><s>790€</s><b>395€</b><span>metà prezzo</span></div>
@@ -92,8 +92,9 @@
         </ul>
         <div class="regalo">E Stratego incluso per tutto l'anno: la tua strategia e il tuo piano editoriale, costruiti sul tuo profilo</div>
         <p class="scade">Scade <b>martedì 1 dicembre alle 23:59</b> · <span class="cd-mini" data-chiude="2026-12-01T23:59:00+01:00"></span></p>
-        <div class="azioni"><a class="btn" data-acquisto data-testo-prima="Si apre venerdì 27 alle 9:00" href="https://club.unlikeacademy.it/checkout/all-access-sblocca-tutto?price_id=342312&coupon_code=BLACK50">Entro nel Club a 395€ <span class="ar">→</span></a></div>
+        <div class="azioni"><a class="btn" data-acquisto data-testo-prima="Si apre giovedì 26 in diretta" href="https://club.unlikeacademy.it/checkout/all-access-sblocca-tutto?price_id=342312&coupon_code=BLACK50">Entro nel Club a 395€ <span class="ar">→</span></a></div>
         <p class="chiuso-msg">Il Club a metà prezzo si è chiuso martedì 1 dicembre alle 23:59</p>
+        <p class="conto">Se oggi 395€ tutti insieme sono troppi: <b>Stratego da solo</b>, con il 10% in meno per i primi 3 mesi, 26,10€ al mese invece di 29€ (più IVA) · fino a martedì 1 dicembre alle 23:59 · <a href="[LINK-STRATEGO-10]">Provo Stratego →</a></p>
       </article>
 
       <article class="card" data-chiude="2026-11-29T23:59:00+01:00">
@@ -321,5 +322,7 @@
 
 <script src="assets/countdown.js" defer></script>
 <script src="assets/prove.js" defer></script>
+<script>/* 10/11: le righe con un link ancora da mettere (es. [LINK-STRATEGO-10]) restano nascoste finché non arriva il link vero */
+document.querySelectorAll('a[href^="["]').forEach(function(a){var p=a.closest("p");if(p)p.style.display="none";});</script>
 </body>
 </html>
